@@ -1,10 +1,91 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html,body{
+html,
+body {
   height: 100%;
   width: 100%;
 }
-
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#nav {
+  height: 60px;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+#nav h4 {
+  color: white;
+  font-weight: 100;
+}
+#center {
+  height: 70%;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-model-unselect-gallery-1-202509?wid=5120&hei=2880&fmt=webp&qlt=90&.v=dU9qRExIQUlQTzVKeDd1V1dtUE1MUWFRQXQ2R0JQTk5udUZxTkR3ZVlpS1ZKNzlseDJva0h5NlRjOVNob0hSVjBoUVhuTWlrY2hIK090ZGZZbk9HeEJWb1BiTjRORlc1Y1lKU3JWempySklRNmNHZmh4VCt0eWNpdXFKdGlmMVRmbW94YnYxc1YvNXZ4emJGL0IxNFp3&traceId=1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#center h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+#center h5 {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+#links {
+  padding: 10px;
+  margin: 10px;
+}
+#links button {
+  padding: 10px;
+  margin: 10px;
+  background-color: royalblue;
+  border: none;
+  color: white;
+  border-radius: 50px;
+}
+#buy button {
+  background-color: black;
+  color: aqua;
+}
+#bottom{
+  height: 50%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  background-image: url(https://www.apple.com/v/iphone-air/d/images/overview/welcome/hero_endframe__e89wrlp1kjee_xlarge_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#bottom h1{
+  font-size: 50px;
+  padding: 10px;
+}
+#bottom h5{
+  font-size: 20px;
+  padding: 10px;
+}
+#btn button{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+}

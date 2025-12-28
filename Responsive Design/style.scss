@@ -19,11 +19,15 @@ body{
   flex-direction: column;
   gap: $gap;
 }
+section{
+  max-width: 2000px;
+}
 main{
   width: 100%;
  @include flex-column(0rem);
   
   section{
+   
     width: 100%;
     padding: 1rem;
     @include flex-column(1rem);
@@ -67,10 +71,31 @@ main{
 }
 @media (min-width:1000px){
   main{
-    background-color: red;
+   
   
  section{
     flex-direction: row;
+   padding: 1rem 2rem;
+    .top,.bottom{
+    width: 50%;
+    }
+    .bottom{
+     justify-content: space-between;
+     padding: 3rem;
+
+     .text{
+      gap: 1.5rem;
+
+      h1{
+        font-size: 3.5rem;
+      }
+      p{
+        width: 60%;
+        font-size: 1rem;
+      }
+     }
+    }
+   
   }
   }
 }
